@@ -385,7 +385,7 @@ class ProductRestApiIntegrationTest {
 
     @Test
     @Order(24)
-    @DisplayName("25. Concurrent operations test")
+    @DisplayName("24. Concurrent operations test")
     void testConcurrentOperations() throws Exception {
         Product product1 = createProductAndExtract(new Product("Concurrent Test 1", 100.00));
         Product product2 = createProductAndExtract(new Product("Concurrent Test 2", 200.00));
